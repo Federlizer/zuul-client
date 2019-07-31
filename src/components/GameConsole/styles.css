@@ -1,0 +1,23 @@
+.GameConsole {
+    display: flex;
+    flex-direction: column;
+}
+
+.GameConsole > .console {
+    height: 200px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.GameConsole > .controls {
+    display: flex;
+    flex-direction: row;
+}
+
+.GameConsole > .controls > input[type='text'] {
+    width: 80%;
+}
+
+.GameConsole > .controls > input[type='submit'] {
+    width: 20%;
+}
